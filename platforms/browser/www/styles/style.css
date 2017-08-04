@@ -1,0 +1,114 @@
+.about-page {
+    background-image: url("../images/calendar.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin:0%;
+}
+
+.container {
+    display:flex;
+    width:100%;
+}
+
+main {
+    width:90%;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+h1 {
+    text-align:center;
+    color:#EF8317;
+}
+
+h2 {
+    text-align:center;
+    margin:5%;
+    font-style: italic;
+    color:#7F3F00;
+    font-size: small;
+}
+
+h3 {
+    text-align:center;
+}
+
+p {
+    text-align:center;
+}
+
+ul {
+    text-align:justify;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+}
+
+li {
+    list-style-position: inside;
+}
+
+.features {
+    height:20%;
+}
+
+.info {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+#info {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2%;
+}
+
+.about {
+    width:70%;
+}
+
+/*This is styling for the navigation bar*/
+
+sidebar {
+    background-color: #33658A;
+    padding: 2%;
+    margin-right: 5%;
+    width: 15%;
+}
+
+nav ul {
+    color:white;
+    list-style-type: none;
+    padding:2%;
+    width:100%;
+    height:86.5vh;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+}
+
+nav li {
+    text-align:center;
+    padding:20%;
+    font-size:90%;
+}
+
+nav a {
+    text-decoration:none;
+    color:white;
+}
+
+nav a:hover {
+    color:#EF8317;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+a {
+    text-decoration:none;
+    color: #86BBD8;
+}
